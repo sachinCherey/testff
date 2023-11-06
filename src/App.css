@@ -9,12 +9,37 @@ body {
   height: 100vh;
 }
 
+#root{
+  width: 50%;
+}
 
 .App {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: white;
   border-radius: 10px;
-  height: 100vh;
+  height: 70vh;
+}
+
+#con{
+  display: flex;
+  flex-direction: column;
+  gap: 75px;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  /* height: 75vh; */
+  width: 100%;
+  margin: 0px auto;
+}
+
+input{
+  border-radius: 20px;
+}
+button{
+  border-radius: 10px;
+
 }

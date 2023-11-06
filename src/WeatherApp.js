@@ -17,19 +17,8 @@ const WeatherApp = () => {
   };
 
   return (
-    <div
-      style={{
-        display: "flex",
-        gap: "75px",
-        justifyContent: "center",
-        alignItems: "center",
-        backgroundColor: "white",
-        borderRadius: "10px",
-        height: "100vh",
-        width: "50%",
-        margin: "0px auto"
-      }}
-    >
+    <div id='con'>
+      <h1>WeatherApp</h1>
       <div>
         <input
           type="text"
@@ -48,7 +37,7 @@ const WeatherApp = () => {
           </p>
         </div>
       ) : (
-        <p>Your response should come here</p>
+        <p>Your response should come here...</p>
       )}
     </div>
   );
